@@ -1,0 +1,70 @@
+.pincard{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.lab{
+    width: max-content;
+    color:#ff0055;
+    font-size: 12px;
+    border-bottom: .5px solid #ff0055;
+    margin: 3px 0;
+}
+
+.review{
+    font-size: 14px;
+}
+
+.star{
+    color: gold;
+}
+
+.username{
+    font-size: 14px;
+}
+
+.date{
+    font-size :12px;
+}
+.forms {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(88, 87, 87);
+  }
+  
+  .inptitle {
+    border: none;
+    border-bottom: 1px solid gray;
+  }
+  
+  .inptitle::placeholder,
+  .txta::placeholder {
+    font-size: 12px;
+    color: rgb(185, 184, 184);
+  }
+  
+  .inptitle:focus,
+  .txta:focus,
+  select:focus {
+    outline: none;
+  }
+  
+  .txta{
+    border: none;
+    border-bottom: 1px solid gray;
+  }
+  
+  .submitButton {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: #ff0055;
+    cursor: pointer;
+  }
